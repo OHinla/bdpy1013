@@ -6,8 +6,8 @@ import multiprocessing
 
 def transform(x):
     print(f"convert category:{x.name}")
-    time.sleep(3)
-    result = {'name': x.name, 'revenue': x.attendee * 5000}
+    time.sleep(4)
+    result = {'name': x.name, 'revenue': x.attendee * 5090}
     return result
 
 if __name__ == '__main__':
